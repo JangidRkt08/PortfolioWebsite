@@ -11,11 +11,11 @@ const Navbar = () => {
     { id: 5, link: "contact" },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white fixed bg-black">
+    <div className="flex justify-between text-3xl z-20 items-center w-full h-20 px-4 text-white fixed bg-black">
       <div>
         <h1 className="text-5xl font-signature ml-2">Ravikant</h1>
       </div>
-      <ul className="hidden md:flex">
+      <ul className="hidden z-20 md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}

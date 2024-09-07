@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="w-full h-auto bg-gradient-to-b from-black to-gray-800 p-14 md:pt-48 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -37,17 +37,17 @@ const Contact = () => {
               placeholder="Message"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-105 duration-300">
               let's talk
             </button>
           </form>
         </div>
-        <p className="text-center text-base text-gray-400">
-          made with <span className="text-red-500">&hearts;</span> by Ravikant
+        <p className="text-center  text-base text-gray-400">
+          Made with <span className="text-red-500">&hearts;</span> by Ravikant
         </p>
-        <p className="text-center text-sm text-white">
+        {/* <p className="text-center  text-sm text-white">
           <span className="text-white">&copy;</span> 2024 All right Reserved
-        </p>
+        </p> */}
       </div>
     </div>
   );
