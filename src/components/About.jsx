@@ -14,21 +14,21 @@ const About = () => {
         </div>
         <div className="space-y-6">
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
-            pariatur maiores recusandae, ab nisi commodi deleniti repellendus
-            laboriosam fugit ducimus ut, sapiente quae blanditiis omnis tempore
-            harum cumque perspiciatis corrupti obcaecati consequuntur beatae
-            culpa! Maiores, possimus laboriosam exercitationem cum numquam
-            accusamus tempora explicabo hic sunt corporis, error debitis
-            perspiciatis quisquam.
+            Hello, I'm Ravikant Jangid, a passionate full-stack developer and
+            B.Tech student specializing in Artificial Intelligence. I'm
+            currently working on an exciting project called SMART VISION, where
+            I lead the integration of machine learning into a dynamic web
+            interface. My tech stack includes React, Node.js, AWS S3, and Amazon
+            Kinesis Video Streams , which I use to bridge AI with intuitive web
+            experiences.
           </p>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
-            laborum quasi recusandae consequatur. Sapiente impedit tempore
-            similique. Nisi aliquam labore, voluptatibus exercitationem quos,
-            doloribus impedit dolores dolore fugiat nemo ab eos! Cupiditate,
-            iure, placeat, exercitationem totam vero aliquam debitis reiciendis
-            alias explicabo eaque fugit hic!
+            I gained practical experience during a 3-month internship at
+            Unisnacks, where I served as the full-stack development lead. This
+            experience honed my skills in designing and deploying web solutions
+            in a fast-paced startup environment. <br></br>With a strong focus on
+            AI and constant curiosity to explore new technologies, I am driven
+            to build innovative solutions that make a real-world impact.
           </p>
         </div>
       </div>
@@ -37,4 +37,3 @@ const About = () => {
 };
 
 export default About;
-
