@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:itsmejangid.rk@gmail.com",
+      href: "mailto:jangidravi0810@gmail.com",
     },
     {
       id: 5,
@@ -50,7 +50,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/RESUME_01.pdf",
+      href: "/Ravijangid_FullStack_developer.pdf",
       style: "rounded-br-md",
       download: true,
     },

@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center items-center">
           <form
-            action="https://getform.io/f/bmdpwyqa"
+            action="https://getform.io/f/bxoydrqa"
             method="POST"
             className="flex flex-col w-full md:w-4/5 lg:w-1/2"
           >
@@ -49,10 +49,6 @@ const Contact = () => {
         <p className="text-center text-base md:text-sm text-gray-400 mt-6">
           Made with <span className="text-red-500">&hearts;</span> by Ravikant
         </p>
-        {/* Optional: Uncomment if needed */}
-        {/* <p className="text-center text-sm text-white">
-          <span className="text-white">&copy;</span> 2024 All rights reserved
-        </p> */}
       </div>
     </div>
   );

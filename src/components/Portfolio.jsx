@@ -1,16 +1,19 @@
 
 
-import React from "react";
-import Portfolio1 from "../assets/PortfolioImg/portfolio1.png";
+import PortfolioImage from "../assets/PortfolioImg/portfolio1.png"
+import ycdirectory from "../assets/PortfolioImg/YC_Directory.png";
 import HospitalManagement from "../assets/PortfolioImg/HospitalManagement.png";
+import rjInterior from "../assets/PortfolioImg/rjInterior.png";
+import Flight from "../assets/PortfolioImg/Flight.png";
+import passwordManager from "../assets/PortfolioImg/passwordManager.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: Portfolio1,
-      demoLink: "https://github.com/",
-      codeLink: "https://github.com/jangidRkt08",
+      src: ycdirectory,
+      demoLink: "https://y-com-directory.vercel.app/",
+      codeLink: "https://github.com/JangidRkt08/YC_Directory",
     },
     {
       id: 2,
@@ -20,16 +23,29 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: HospitalManagement,
-      demoLink: "https://madicareuser.netlify.app/",
-      codeLink: "https://github.com/JangidRkt08/MEDICARE_DEPLOYED",
+      src: PortfolioImage,
+      demoLink: "https://lemyportfolio.netlify.app/",
+      codeLink: "https://github.com/JangidRkt08/PortfolioWebsite",
     },
     {
       id: 4,
-      src: HospitalManagement,
-      demoLink: "https://github.com/",
-      codeLink: "https://github.com/",
+      src: rjInterior,
+      demoLink: "https://rjinterior.netlify.app/",
+      codeLink: "https://github.com/JangidRkt08/interior-design-Landing_Page",
     },
+      {
+      id: 5,
+      src: Flight,
+      demoLink: "https://github.com/JangidRkt08/FlightBooking_Backend",
+      codeLink: "https://github.com/JangidRkt08/FlightBooking_Backend",
+    },
+    {
+      id: 6,
+      src: passwordManager,
+      demoLink: "https://github.com/JangidRkt08/PasswordManager_cpp_Project",
+      codeLink: "https://github.com/JangidRkt08/PasswordManager_cpp_Project",
+    },
+
   ];
 
   return (
