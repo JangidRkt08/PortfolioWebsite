@@ -19,7 +19,7 @@ const Portfolio = () => {
       id: 2,
       src: HospitalManagement,
       demoLink: "https://madicareuser.netlify.app/",
-      codeLink: "https://github.com/JangidRkt08/MEDICARE_DEPLOYED",
+      codeLink: "https://github.com/JangidRkt08/MediCare",
     },
     {
       id: 3,
